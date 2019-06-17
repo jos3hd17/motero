@@ -1,0 +1,53 @@
+<ion-content>
+
+  <div class="title-container">
+    <ion-row>
+      <br>
+      <br>
+      <br>
+    </ion-row>
+    <ion-text color="primary center">
+      <h5>hello <span class="title">m0tero!</span> </h5>
+    </ion-text>
+  </div>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="body" slot="start"></ion-icon>
+      <ion-label>José David Hernández</ion-label>
+      <ion-button fill="outline" slot="end" (click)="makeLogin('Jose')">Login</ion-button>
+    </ion-item>
+
+    <ion-card-content>
+      Login saved m0tero, tap now to start the real adventure
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-item>
+      <ion-icon name="woman" slot="start"></ion-icon>
+      <ion-label>Maria Antonia Román</ion-label>
+      <ion-button fill="outline" slot="end" (click)="makeLogin('Maria')">Login</ion-button>
+    </ion-item>
+
+    <ion-card-content>
+      Login saved m0tera, tap now to start the real adventure
+    </ion-card-content>
+  </ion-card>
+
+  <ion-grid class="bottom">
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" color="light">
+          Login
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" color="light">
+          Register
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+</ion-content>
